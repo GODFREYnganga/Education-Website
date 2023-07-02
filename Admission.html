@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/Admission.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Admission Form</title>
+
+</head>
+<body>
+
+    <Nav>
+        <div class="container nav__container">
+        <a href="index.html"><h4>OHIO COLLEGE</h4></a>
+        <ul class="nav__menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Academics.html">Academics</a></li>
+            <li><a href="Admission.html">Admission</a></li>
+            <li><a href="Contact us.html">Contact us</a></li>
+        </ul>
+         </div>
+         </Nav>
+         <section>
+         <center><h1>Admission Form</h1></center>
+         <div style="margin: 50px;padding: 10px; text-align: center;">
+         <form method="POST">
+           <fieldset>
+             <legend color="red">Login Details</legend>
+             <table>
+                 <tr>
+                    <td>Username: </td>
+                    <td><input type="text" name="t1"/></td>
+                 </tr>
+                 <tr>
+                    <td>Password: </td>
+                    <td><input type="password" name="t2"/></td>
+                 </tr>  
+             </table>
+           </fieldset>
+           <fieldset>
+             <legend>Personal Details</legend>
+             <table>
+                <tr>
+            <td>Name: </td>
+            <td><input type="text" name="t3"/></td>
+                </tr>
+                <tr>
+            <td>Mother's Name</td>
+            <td><input type="text" name="t4"/></td>
+            </tr>
+                <tr>
+            <td>Father's Name</td>
+            <td><input type="text" name="t5"/></td>
+            </tr>
+                <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" name="t6"/></td>
+            </tr>
+                <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="r1" value="male">Male</input>
+                <input type="radio" name="r1" vale="female">Female</input>
+                    </td>
+            </tr>
+             </table> 
+           </fieldset>
+            <fieldset>
+             <legend>Contact Details</legend>
+              <table>
+                <tr>
+            <td>Contact Number: </td>
+            <td><input type="tel" name="t7"/></td>
+                </tr>
+                <tr>
+            <td>Email ID: </td>
+            <td><input type="email" name="t8"/></td>
+                </tr>
+                <tr>
+            <td>Address</td>
+            <td><textarea rows="5" cols="30">Enter Address...</textarea></td>
+                </tr>
+                <tr>
+            <td>Country: </td>
+            <td>
+                       <select name="country">
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Australia</option>
+                       </select>
+                    </td>
+                </tr>
+              </table>
+    
+           </fieldset> 
+           <fieldset>
+             <legend>Academic Details</legend>
+             <table>
+               <tr>
+                 <td>10<sup>th</sup> Class Marks:</td>
+                 <td><input type="number" name="t9"/></td>
+                 <td>Board: </td>
+                 <td><input type="text" name="t9_1"/></td>
+                 <td>School Name: </td>
+                 <td><input type="text" name="t9_2"/></td>
+               </tr>
+               <tr>
+               <tr>
+                 <td>12<sup>th</sup> Class Marks:</td>
+                 <td><input type="number" name="t10"/></td>
+                 <td>Board: </td>
+                 <td><input type="text" name="t10_1"/></td>
+                 <td>School Name: </td>
+                 <td><input type="text" name="t10_2"/></td>
+               </tr>
+               </tr>
+             </table>
+           </fieldset>  
+           <div style="margin-top: 20px; padding: 10px;text-align: center;">
+               <Button onclick="alert('Form Submitted');">Submit</button>
+           </div>  
+         </form>
+         </div>
+        </section>
+  <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>GODFREY'S College</h4></a>
+            <p>
+                Grow your skills to advance your career path
+            </p>
+            </div>
+
+            <div class="footer__2">
+                <h4>permalinks</h4>
+                <ul class="permalinks">
+             <li><a href="index.html">Home</a></li>
+            <li><a href="Academics.html">Academics</a></li>
+            <li><a href="Admission.html">Admission</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact us.html">Contact us</a></li>
+
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><ahref="#">privacy</a></li>
+                    <li><ahref="#">Terms and conditions</a></li>
+                    <li><ahref="#">Refund policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact us</h4>
+                <div>
+                    <p>+o1 234 567 8910</p>
+                    <p>godfreynganga50@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li>
+                        <a href="#"><iclass="facebook>facebook<i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><iclass="instagram>instagram<i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <li>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div>
+        <div class="footer__copyright">
+            <small>copyright &copy; Godfrey's college</small>
+        </div>
+    </div>
+</footer>
+  </body>
+</html>
+
